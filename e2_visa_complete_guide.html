@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-2 비자로 미국에서 사업하기 — 처음부터 끝까지 | 전홍민 변호사</title>
+<link rel="canonical" href="https://e2.junlawfirm.com">
+<meta name="description" content="한국인을 위한 E-2 투자비자 완전 가이드. 자격 요건, 투자금 기준, 사업 유형, 신청 절차, 갱신 전략까지 처음부터 끝까지 설명합니다.">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #f9f7f4;
+    color: #1a1a1a;
+    line-height: 1.7;
+  }
+
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .top-label {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #185FA5;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  /* ── 히어로 ── */
+  .hero {
+    border-left: 4px solid #378ADD;
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 2.5rem;
+    background: #fff;
+    border-radius: 0 12px 12px 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+
+  .hero h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.45;
+    margin-bottom: 10px;
+    color: #111;
+  }
+
+  .hero p {
+    font-size: 14.5px;
+    color: #555;
+    line-height: 1.75;
+  }
+
+  /* ── 통계 카드 ── */
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 2.5rem;
+  }
+
+  @media (max-width: 560px) {
+    .stat-grid { grid-template-columns: 1fr; }
+  }
+
+  .stat-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid #ece8e2;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+
+  .stat-card.red::before   { background: #E24B4A; }
+  .stat-card.amber::before { background: #EF9F27; }
+  .stat-card.blue::before  { background: #378ADD; }
+
+  .stat-label {
+    font-size: 11px;
+    color: #888;
+    font-weight: 500;
+    margin-bottom: 6px;
+    letter-spacing: 0.04em;
+  }
+
+  .stat-num {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+
+  .stat-card.red   .stat-num { color: #A32D2D; }
+  .stat-card.amber .stat-num { color: #854F0B; }
+  .stat-card.blue  .stat-num { color: #185FA5; }
+
+  .stat-desc {
+    font-size: 11.5px;
+    color: #777;
+    line-height: 1.45;
+  }
+
+  /* ── 섹션 ── */
+  .section { margin-bottom: 2.2rem; }
+
+  .section-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 0.9rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e8e4de;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sec-num {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #E6F1FB;
+    color: #185FA5;
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .body-text {
+    font-size: 14.5px;
+    line-height: 1.9;
+    color: #2a2a2a;
+    margin-bottom: 0.9rem;
+  }
+
+  /* ── 강조 박스 ── */
+  .highlight-box {
+    border-left: 3px solid #378ADD;
+    background: #f0f6fd;
+    padding: 1rem 1.2rem;
+    border-radius: 0 10px 10px 0;
+    margin: 1.1rem 0;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #1a3a5c;
+  }
+
+  .warn-box {
+    border-left: 3px solid #EF9F27;
+    background: #fdf5e6;
+    padding: 1rem 1.2rem;
+    border-radius: 0 10px 10px 0;
+    margin: 1.1rem 0;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #5a3a0a;
+  }
+
+  .success-box {
+    border-left: 3px solid #639922;
+    background: #f2f8e8;
+    padding: 1rem 1.2rem;
+    border-radius: 0 10px 10px 0;
+    margin: 1.1rem 0;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #2a4a0a;
+  }
+
+  /* ── 3단 카드 그리드 ── */
+  .tri-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 1.1rem 0;
+  }
+
+  @media (max-width: 560px) {
+    .tri-grid { grid-template-columns: 1fr; }
+  }
+
+  .tri-card {
+    background: #f5f3ef;
+    border: 1px solid #e5e0d8;
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+  }
+
+  .tri-tag {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 5px;
+  }
+
+  .tri-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #111;
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+
+  .tri-note {
+    font-size: 11.5px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    margin-top: 7px;
+    font-weight: 500;
+  }
+
+  .badge-red   { background: #FCEBEB; color: #791F1F; }
+  .badge-amber { background: #FAEEDA; color: #633806; }
+  .badge-blue  { background: #E6F1FB; color: #0C447C; }
+  .badge-green { background: #EAF3DE; color: #27500A; }
+
+  /* ── 단계 리스트 ── */
+  .step-list { margin-top: 0.5rem; }
+
+  .step-row {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 16px;
+    align-items: flex-start;
+  }
+
+  .step-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #E6F1FB;
+    color: #185FA5;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .step-content { flex: 1; }
+
+  .step-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 3px;
+  }
+
+  .step-desc {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  /* ── 투자금 시각화 ── */
+  .invest-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 1.1rem 0;
+  }
+
+  @media (max-width: 560px) {
+    .invest-grid { grid-template-columns: 1fr; }
+  }
+
+  .invest-card {
+    background: #fff;
+    border: 1px solid #e5e0d8;
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+  }
+
+  .invest-range {
+    font-size: 20px;
+    font-weight: 700;
+    color: #185FA5;
+    margin-bottom: 4px;
+  }
+
+  .invest-type {
+    font-size: 13px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 4px;
+  }
+
+  .invest-note {
+    font-size: 11.5px;
+    color: #777;
+    line-height: 1.5;
+  }
+
+  /* ── 번호 리스트 ── */
+  .ev-list { margin-top: 0.5rem; }
+
+  .ev-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+    align-items: flex-start;
+  }
+
+  .ev-num {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #E6F1FB;
+    color: #185FA5;
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .ev-text {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #2a2a2a;
+  }
+
+  .ev-text strong {
+    font-weight: 600;
+    color: #111;
+  }
+
+  /* ── 구분선 ── */
+  .divider {
+    border: none;
+    border-top: 1px solid #e8e4de;
+    margin: 2rem 0;
+  }
+
+  /* ── 클로징 ── */
+  .closing {
+    background: #fff;
+    border: 1px solid #e0dbd4;
+    border-radius: 12px;
+    padding: 1.5rem 1.7rem;
+    margin-top: 2rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+
+  .closing-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+    color: #111;
+  }
+
+  .closing p {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #333;
+    margin-bottom: 0.7rem;
+  }
+
+  .contact-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ece8e2;
+    font-size: 12.5px;
+    color: #555;
+  }
+
+  .contact-bar a {
+    color: #185FA5;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .disclaimer {
+    margin-top: 1.5rem;
+    font-size: 11.5px;
+    color: #aaa;
+    line-height: 1.6;
+    padding-top: 1rem;
+    border-top: 1px solid #ece8e2;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="top-label">Law Office of Hong-min Jun · E-2 투자비자 완전 가이드 · 2026</div>
+
+  <div class="hero">
+    <h1>E-2 비자로 미국에서 사업하기<br>— 처음부터 끝까지</h1>
+    <p>한국인 투자자를 위한 E-2 비자 완전 가이드. 자격 요건부터 투자금 기준, 사업 유형 선택, 신청 절차, 갱신 전략까지 한 곳에 정리했습니다.</p>
+  </div>
+
+  <!-- 통계 카드 -->
+  <div class="stat-grid">
+    <div class="stat-card blue">
+      <div class="stat-label">E-2 비자 승인율 (2024)</div>
+      <div class="stat-num">90.1%</div>
+      <div class="stat-desc">2021년 이후 꾸준히 90% 이상 유지 — 잘 준비된 케이스의 성공률</div>
+    </div>
+    <div class="stat-card amber">
+      <div class="stat-label">한국인 E-2 발급 (2024)</div>
+      <div class="stat-num">6,778</div>
+      <div class="stat-desc">전 세계 3위 — 일본·캐나다와 함께 전체 발급의 53% 차지</div>
+    </div>
+    <div class="stat-card red">
+      <div class="stat-label">권장 최소 투자금</div>
+      <div class="stat-num">$100K+</div>
+      <div class="stat-desc">법정 최소금액 없음. 업종에 따라 $50K~$500K+ 범위</div>
+    </div>
+  </div>
+
+  <!-- 섹션 1 -->
+  <div class="section">
+    <h2 class="section-title"><span class="sec-num">01</span>E-2 비자란 무엇인가</h2>
+    <p class="body-text">E-2(Treaty Investor Visa)는 미국과 통상 조약을 맺은 나라의 국민이 미국 사업체에 상당한 투자를 하고 그 사업을 직접 운영·관리하기 위해 미국에 체류할 수 있도록 하는 비이민 비자입니다. 한국은 오래전부터 미국과 조약 관계를 맺고 있어 한국 국적자라면 누구나 신청 자격이 있습니다.</p>
+
+    <div class="highlight-box">
+      E-2의 가장 큰 매력은 <strong>갱신 횟수 제한이 없다</strong>는 점입니다. 사업이 계속 운영되고 요건을 충족하는 한 2년마다 무기한 갱신이 가능합니다. 또한 배우자는 별도 취업 허가 없이 미국 내 어디서든 취업이 가능하며, 21세 미만 자녀도 동반 체류할 수 있습니다.
+    </div>
+
+    <div class="tri-grid">
+      <div class="tri-card">
+        <div class="tri-tag">핵심 요건 1</div>
+        <div class="tri-title">조약국 국적</div>
+        <div class="tri-note">신청인이 미국과 조약을 맺은 국가의 국적자여야 함. 한국은 해당</div>
+        <span class="badge badge-green">한국 ✓</span>
+      </div>
+      <div class="tri-card">
+        <div class="tri-tag">핵심 요건 2</div>
+        <div class="tri-title">상당한 투자</div>
+        <div class="tri-note">사업 총 비용 대비 상당한 비율의 투자. "위험에 처한" 자본이어야 함</div>
+        <span class="badge badge-amber">비례성 중요</span>
+      </div>
+      <div class="tri-card">
+        <div class="tri-tag">핵심 요건 3</div>
+        <div class="tri-title">비한계성 사업</div>
+        <div class="tri-note">투자자의 생계비를 초과하는 수익을 창출하거나 미국 경제에 기여할 것</div>
+        <span class="badge badge-red">가장 빈번한 거부 사유</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 섹션 2 -->
+  <div class="section">
+    <h2 class="section-title"><span class="sec-num">02</span>투자금 — 얼마면 충분한가</h2>
+    <p class="body-text">E-2 비자에는 법정 최소 투자금이 없습니다. 그러나 이것이 "적게 투자해도 된다"는 의미는 아닙니다. USCIS와 영사관이 보는 것은 <strong>사업 총 비용 대비 투자 비율의 상당성</strong>입니다. $500,000짜리 사업에 $100,000을 투자하면 불충분할 수 있고, $80,000짜리 서비스 사업에 $60,000을 투자하면 충분할 수 있습니다.</p>
+
+    <div class="invest-grid">
+      <div class="invest-card">
+        <div class="invest-range">$50K – $100K</div>
+        <div class="invest-type">소규모 서비스업</div>
+        <div class="invest-note">네일샵, 세탁소, 소규모 컨설팅, 온라인 사업 등. 낮은 투자금은 비한계성 입증이 더 어려움</div>
+      </div>
+      <div class="invest-card">
+        <div class="invest-range">$100K – $250K</div>
+        <div class="invest-type">프랜차이즈 / 일반 소매</div>
+        <div class="invest-note">검증된 브랜드 프랜차이즈. USCIS 승인율이 높고 비한계성 입증이 용이</div>
+      </div>
+      <div class="invest-card">
+        <div class="invest-range">$250K – $500K</div>
+        <div class="invest-type">레스토랑 / 중형 사업</div>
+        <div class="invest-note">식당, 제조업, 부동산 관리 등. 직원 고용 계획과 함께 제출 시 효과적</div>
+      </div>
+      <div class="invest-card">
+        <div class="invest-range">$500K+</div>
+        <div class="invest-type">대형 사업 / 멀티 유닛</div>
+        <div class="invest-note">대규모 제조, 다점포 프랜차이즈. 높은 투자금은 승인율과 정비례</div>
+      </div>
+    </div>
+
+    <div class="warn-box">
+      <strong>주의:</strong> 투자금은 반드시 <strong>"위험에 처한(at risk)"</strong> 자본이어야 합니다. 은행 계좌에 예치만 해둔 돈은 인정되지 않습니다. 사업에 실제로 집행되거나 취소 불가능한 형태로 투입되어야 합니다.
+    </div>
+  </div>
+
+  <!-- 섹션 3 -->
+  <div class="section">
+    <h2 class="section-title"><span class="sec-num">03</span>어떤 사업이 유리한가</h2>
+    <p class="body-text">사업 유형 선택은 E-2 승인에 직결됩니다. USCIS가 선호하는 사업 모델과 그렇지 않은 것을 미리 파악하는 것이 전략의 출발점입니다.</p>
+
+    <div class="tri-grid">
+      <div class="tri-card">
+        <div class="tri-tag">승인율 높음</div>
+        <div class="tri-title">검증된 프랜차이즈</div>
+        <div class="tri-note">패스트푸드, 청소 서비스, 피트니스, 튜터링 프랜차이즈. 사업 모델이 검증되어 비한계성 입증 용이</div>
+        <span class="badge badge-green">적극 추천</span>
+      </div>
+      <div class="tri-card">
+        <div class="tri-tag">승인율 보통</div>
+        <div class="tri-title">기존 사업 인수</div>
+        <div class="tri-note">운영 중인 사업의 51% 이상 지분 인수. 즉시 현금 흐름과 실적 증명 가능</div>
+        <span class="badge badge-blue">전략적 선택</span>
+      </div>
+      <div class="tri-card">
+        <div class="tri-tag">주의 필요</div>
+        <div class="tri-title">1인 컨설팅</div>
+        <div class="tri-note">직원 없는 컨설팅은 비한계성 입증이 어려움. 명확한 성장 계획과 고용 계획 필수</div>
+        <span class="badge badge-red">전략 필요</span>
+      </div>
+    </div>
+
+    <div class="success-box">
+      <strong>프랜차이즈가 유리한 이유:</strong> USCIS는 검증된 프랜차이즈 브랜드를 잘 알고 있습니다. 프랜차이즈 계약서 자체가 강력한 서류 증거가 되고, 본사 지원 시스템이 사업 생존 가능성을 뒷받침합니다. 비자 승인 후 입지 선정이 가능한 브랜드도 많아 재정 위험도 줄어듭니다.
+    </div>
+  </div>
+
+  <!-- 섹션 4 -->
+  <div class="section">
+    <h2 class="section-title"><span class="sec-num">04</span>신청 절차 — 단계별 로드맵</h2>
+
+    <div class="step-list">
+      <div class="step-row">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <div class="step-title">사업 선정 및 투자 구조 설계</div>
+          <div class="step-desc">사업 유형 결정 → 투자금 규모 설계 → "at risk" 자본 투입 방식 확정. 이 단계가 전체 케이스의 성패를 결정합니다.</div>
+        </div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <div class="step-title">사업 계획서(Business Plan) 작성</div>
+          <div class="step-desc">5년 재무 계획, 시장 분석, 고용 창출 계획 포함. 단순 템플릿이 아닌 심사관을 설득하는 맞춤형 문서 필요.</div>
+        </div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <div class="step-title">서류 준비</div>
+          <div class="step-desc">투자 증빙, 자금 출처 서류, 사업 등록 서류, DS-160 작성. 자금 출처(Source of Funds) 증명이 최근 더욱 중요해졌습니다.</div>
+        </div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <div class="step-title">대사관 인터뷰</div>
+          <div class="step-desc">서울 주한미국대사관에서 진행. 대기 시간은 수주~수개월. 인터뷰 준비가 최종 승인의 관건입니다.</div>
+        </div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <div class="step-title">입국 및 사업 운영 개시</div>
+          <div class="step-desc">비자 발급 후 미국 입국. E-2는 통상 2년 단위로 발급되며, 사업이 계속되는 한 무기한 갱신 가능.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>미국 내 신분 변경(Change of Status)도 가능합니다.</strong> 현재 미국에 합법적으로 체류 중이라면 USCIS에 I-129를 제출해 E-2로 신분 변경할 수 있습니다. 프리미엄 프로세싱($2,965, 2026년 기준) 선택 시 15영업일 이내 결과를 받을 수 있습니다.
+    </div>
+  </div>
+
+  <!-- 섹션 5 -->
+  <div class="section">
+    <h2 class="section-title"><span class="sec-num">05</span>갱신과 장기 전략</h2>
+    <p class="body-text">E-2는 영주권이 아닌 비이민 비자입니다. 이 점을 명확히 이해하고 장기 전략을 세워야 합니다.</p>
+
+    <div class="ev-list">
+      <div class="ev-row">
+        <div class="ev-num">1</div>
+        <div class="ev-text"><strong>갱신은 자동이 아닙니다</strong> — 사업 실적이 저조하거나 상황이 바뀌면 갱신이 거절될 수 있습니다. 매 갱신 시 사업의 생존 가능성과 비한계성을 다시 입증해야 합니다.</div>
+      </div>
+      <div class="ev-row">
+        <div class="ev-num">2</div>
+        <div class="ev-text"><strong>영주권 경로는 별도로 준비해야 합니다</strong> — E-2는 영주권으로 전환되지 않습니다. NIW, EB-1C(다국적 기업 임원), EB-5(투자이민) 등 별도 영주권 경로를 병행 준비하는 것이 장기 전략입니다.</div>
+      </div>
+      <div class="ev-row">
+        <div class="ev-num">3</div>
+        <div class="ev-text"><strong>배우자 취업 허가는 자동입니다</strong> — E-2 배우자(E-2S)는 별도 신청 없이 미국 어디서든 취업이 가능합니다. 자녀는 공립학교 등록이 가능합니다.</div>
+      </div>
+      <div class="ev-row">
+        <div class="ev-num">4</div>
+        <div class="ev-text"><strong>미국 내 갱신 vs 한국 대사관 갱신</strong> — 미국 내 체류 중 갱신은 USCIS에 I-129 제출로 가능합니다. 단, 비자 스탬프 갱신은 반드시 한국 대사관 방문이 필요합니다(2026년 현재 미국 내 비자 스탬프 갱신 프로그램은 H-1B에만 적용).</div>
+      </div>
+      <div class="ev-row">
+        <div class="ev-num">5</div>
+        <div class="ev-text"><strong>사업 확장이 곧 체류 안정</strong> — 직원 수 증가, 매출 성장, 추가 지점 개설은 갱신 심사에서 강력한 증거가 됩니다. 사업의 성공이 비자 안정으로 이어지는 구조입니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 클로징 -->
+  <div class="closing">
+    <div class="closing-title">전홍민 변호사의 E-2 비자 서비스</div>
+    <p>인디애나주 Fishers에 기반을 둔 전홍민 변호사는 E-2 투자비자 전 과정을 지원합니다. 사업 유형 선정 단계부터 사업 계획서 검토, 서류 준비, 대사관 인터뷰 준비, 갱신까지 한국어로 직접 상담합니다.</p>
+    <p>E-2와 NIW·영주권을 함께 고려하시는 분께는 장기적인 이민 로드맵도 함께 설계해 드립니다.</p>
+    <div class="contact-bar">
+      <span>📞 (317) 701-2768</span>
+      <span>·</span>
+      <a href="mailto:askus@junlawfirm.com">askus@junlawfirm.com</a>
+      <span>·</span>
+      <a href="https://e2.junlawfirm.com" target="_blank">e2.junlawfirm.com →</a>
+      <span>·</span>
+      <a href="https://www.junlawfirm.com" target="_blank">www.junlawfirm.com →</a>
+    </div>
+    <div class="disclaimer">
+      본 포스팅은 일반적인 정보 제공을 목적으로 하며, 법률 자문이 아닙니다. 개인 사안에 대해서는 반드시 이민 변호사와 상담하시기 바랍니다.
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
